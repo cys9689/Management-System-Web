@@ -4,7 +4,7 @@ const AppointInfo= ({appointment,onDeleteAppointment})=>{
     return (
         <>  
             <ListGroup.Item>
-                    <p><small>Data:{appointment.aptDate}</small></p>
+                    <p><small>Date:{appointment.aptDate}</small></p>
                     <p><strong>First:</strong>{appointment.firstName}</p>
                     <p><strong>Last:</strong>{appointment.lastName}</p>
                     <p><strong>Notes:</strong>{appointment.aptNotes}</p>

@@ -18,7 +18,7 @@ const AddAppointment = ({onSendAppointment,lastId}) =>{
             id: lastId + 1,
             firstName: formData.firstName,
             lastName: formData.lastName,
-            aptData: formData.aptDate + '' + formData.aptTime,
+            aptDate: formData.aptDate + '' + formData.aptTime,
             aptNotes: formData.aptNotes
         }
         onSendAppointment(appointmentInfo);
